@@ -12,10 +12,6 @@ end
 test = Test.new
 response = test.posts
 
-
-
-
-
 # puts response
 response.each do |value|
     value.each do |key,value1|
