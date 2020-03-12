@@ -15,9 +15,9 @@ a = {
 tr.each_with_index do |i,index| 
     if i.css('td')[2].nil? #index == 0
       a[:position].push({
-        @name => "",
-        @clan => "",
-        @honor => 0
+        :name => "",
+        :clan => "",
+        :honor => 0
       })
     else
       # p i.css('td')[2].inner_html
