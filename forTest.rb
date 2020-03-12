@@ -1,2 +1,11 @@
-a = [1,2,3,4]
-p a.each_with_index.min
+leaderboard = {
+    :position => [
+        {
+        'name' => 1,
+        'clan' => 343
+    },
+        {'b' => 2}
+    ]  
+}
+leaderboard[:position].push({'name' => 'asha'})
+p leaderboard[:position]
